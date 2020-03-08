@@ -1,6 +1,6 @@
 <template>
     <div class="[ row ]">
-        <div v-for="recipe in recipes" :key="recipes" class="[ col-sm-12 ]">
+        <div v-for="recipe in recipes" class="[ col-sm-12 ]">
             <recipeComponent        v-bind:thumbnail="recipe.thumbnail"
                                     v-bind:title="recipe.title"
                                     v-bind:ingredients="recipe.ingredients"

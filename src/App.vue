@@ -1,19 +1,17 @@
 <template>
   <div id="app">
-    <h1>Recepies</h1>
-    <recipePage />
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-import recipePage from './components/recipePage.vue'
-
+  (function () {
+    localStorage.setItem('username', 'Nina');
+    localStorage.setItem('password', '1234');
+  })();
+  
 export default {
   name: 'App',
-  components: {
-    recipePage
-  }
 }
 </script>
 
@@ -24,7 +22,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color: black;
+  background-color: lightgrey;
   margin: 0;
 }
 
