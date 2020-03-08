@@ -1,5 +1,17 @@
 # Noroff VueApp
 
+
+We need to install the Vue CLI to be able to use this VueApp. To install it, open the command line and run npm install -g @vue/cli if you’re using npm.
+
+Then CD into the Noroff VueApp folder and run the command "npm run serve". 
+The project will then compile and nn server will be made inside the CLI to be used to watch the App.
+
+
+  App running at:
+  - Local:   http://localhost:8080/
+  - Network: http://192.168.10.170:8080/
+
+
 ## Project setup
 ```
 npm install
