@@ -15,6 +15,7 @@ When the project is running, you get to an login page.
 Enter username an password as following, and push the submit button
 
 Username: Nina
+
 Password: 1234
 
 You should then get to the recipe page, Enjoy all the recipes!
