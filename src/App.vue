@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>Recepies</h1>
+    <recipePage />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import recipePage from './components/recipePage.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    recipePage
   }
 }
 </script>
@@ -23,6 +24,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  background-color: black;
+  margin: 0;
 }
+
 </style>
